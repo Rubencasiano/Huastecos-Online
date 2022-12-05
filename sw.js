@@ -7,6 +7,7 @@ self.addEventListener('install',evento=>{
     const promesa=caches.open(CACHE)
         .then(cache=>{
             return cache.addAll([
+                '/',
                 'about.html',
                 'offline.html',
                 'menu.html',
