@@ -8,7 +8,7 @@ como en el servidor realizaremos una validación si la url
 contiene localhost la ruta es la local del proyecto, de lo contrario
 es la ruta de nuestro repositorio*/
 if(url.includes('Huastecos-Online')){
-ubicacionSw='/Huastecos-Online/sw.js';
+ubicacionSw='Huastecos-Online';
 }
 navigator.serviceWorker.register(ubicacionSw);
 }
