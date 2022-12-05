@@ -18,7 +18,6 @@ self.addEventListener('install',evento=>{
                 'img2/huastecos3.jpg',
                 'img2/huastecos1.jpg',
                 'css/style.css',
-                'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
                 'js/app.js'
                 
             ]);
