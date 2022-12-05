@@ -7,18 +7,17 @@ self.addEventListener('install',evento=>{
     const promesa=caches.open(CACHE)
         .then(cache=>{
             return cache.addAll([
-                '/',
-                '/about.html',
-                '/offline.html',
-                '/menu.html',
-                '/feature.html',
-                '/contact.html',
-                '/index.html',
-                '/images/offline.jpg',
-                '/img2/huastecos2.jpg',
-                '/img2/huastecos3.jpg',
-                '/img2/huastecos1.jpg',
-                '/css/style.css',
+                'about.html',
+                'offline.html',
+                'menu.html',
+                'feature.html',
+                'contact.html',
+                'index.html',
+                'images/offline.jpg',
+                'img2/huastecos2.jpg',
+                'img2/huastecos3.jpg',
+                'img2/huastecos1.jpg',
+                'css/style.css',
                 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
                 '/js/app.js'
                 
