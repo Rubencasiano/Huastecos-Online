@@ -18,7 +18,7 @@ self.addEventListener('install',evento=>{
                 'img2/huastecos3.jpg',
                 'img2/huastecos1.jpg',
                 'css/style.css',
-                'js/app.js',
+                'js/app.js'
                 
             ]);
         });
